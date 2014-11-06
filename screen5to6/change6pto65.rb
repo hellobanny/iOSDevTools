@@ -13,12 +13,12 @@ else
 			FileUtils.cp f6p,f6
 			system( "sips -z 1334 750 "+ f6)
 			FileUtils.cp f6p,f5
-			system( "sips -z 1136 640 "+ f6p)
+			system( "sips -z 1136 640 "+ f5)
 		else
 			FileUtils.cp f6p,f6
 			system( "sips -z 750 1334 "+ f6)
 			FileUtils.cp f6p,f5
-			system( "sips -z 640 1136 "+ f6p)
+			system( "sips -z 640 1136 "+ f5)
 		end
 	end
 end
